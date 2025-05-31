@@ -58,8 +58,9 @@ const Wrapper = styled.div`
   top: 6rem;
   background-color: var(--clr-white);
   padding: 2rem 1.75rem;
-  width: 100%;
+  width: 95vw;
   max-width: 23.5rem;
+  min-width: 18rem;
   box-shadow: var(--modal-background);
   color: var(--clr-black);
   .cart-header {
@@ -101,6 +102,11 @@ const Wrapper = styled.div`
     font-size: var(--fs-h5);
     line-height: 10rem;
     font-weight: 500;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 1rem 0.5rem;
+    min-width: unset;
   }
 `;
 

@@ -157,6 +157,8 @@ const FooterBottom = styled.div`
   ul {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
     li {
       transition: var(--transiton-general);
       .social-icon:hover {

@@ -34,10 +34,13 @@ const ListItem = styled.li`
   padding-top: 20%;
   img {
     max-width: 50%;
+    width: 100%;
+    height: auto;
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    object-fit: contain;
   }
   .card {
     padding-top: 25%;
@@ -46,6 +49,12 @@ const ListItem = styled.li`
     &__title {
       font-size: var(--fs-base);
       margin-bottom: 1rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    padding-top: 30%;
+    .card {
+      padding-top: 35%;
     }
   }
 `;

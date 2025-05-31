@@ -61,8 +61,9 @@ const SmallImages = styled.div`
   gap: 1rem;
   img {
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: var(--radius);
+    object-fit: cover;
   }
   @media screen and (min-width: 1280px) {
     gap: 1.875rem;
@@ -70,9 +71,10 @@ const SmallImages = styled.div`
 `;
 const BigImage = styled.div`
   img {
-    height: 100%;
     width: 100%;
+    height: auto;
     border-radius: var(--radius);
+    object-fit: cover;
   }
 `;
 

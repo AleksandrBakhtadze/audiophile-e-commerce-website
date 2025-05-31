@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
-/* 
-===============
-Variables
-===============
-*/
 :root {
-  /* Colors */
   --clr-primary-1: hsl(22, 65%, 57%);
   --clr-primary-1-lt: hsl(21, 94%, 75%);
   --clr-primary-2: hsl(0, 0%, 6%);
@@ -19,7 +13,6 @@ Variables
   --clr-grey-3: hsl(0, 0%, 81%);
   --clr-border: hsl(0, 0%, 10%);
   --clr-danger: hsl(0, 65%, 49%);
-  /* Font size */
   --fs-h1: 3.5rem;
   --fs-h2: 2.5rem;
   --fs-h3: 2rem;
@@ -29,7 +22,6 @@ Variables
   --fs-base: 0.9375rem;
   --fs-mili: 0.875rem;
   --fs-micro: 0.8125rem;
-  /* Line height */
   --lh-h1: 3.625rem;
   --lh-h2: 2.75rem;
   --lh-h3: 2.25rem;
@@ -39,7 +31,6 @@ Variables
   --lh-base: 1.56rem;
   --lh-mili: 1.2rem;
   --lh-micro: 1.56rem;
-  /* Letter spacing */
   --ls-h1: 0.125rem;
   --ls-h2: 0.094rem;
   --ls-h3: 0.072rem;
@@ -48,19 +39,13 @@ Variables
   --ls-h6: 0.081rem;
   --ls-mili: 0.625rem;
   --ls-micro: 0.063rem;
-  /* Offsets */
   --offset-big: 2.375rem;
-  /* Others */
   --radius: 0.5rem;
   --modal-background: 0 0 0 1000rem rgba(0, 0, 0, 0.4);
   --burger-transition: all 0.5s ease-in-out;
   --general-transition: all 0.3s ease-in-out;
 }
-/* 
-===============
-Global styles
-===============
-*/
+
 *,
 ::after,
 ::before {
@@ -265,11 +250,7 @@ svg:hover path {
 .black-bgc {
   background-color: var(--clr-black);
 }
-/* 
-===============
-Components styles
-===============
-*/
+
 
 .speaker-zx9 {
   background-image: url('/home/desktop/pattern-circles.svg');

@@ -45,7 +45,10 @@ const Wrapper = styled.section`
     img {
       margin-bottom: 2.5rem;
       width: 100%;
+      max-width: 100%;
+      height: auto;
       border-radius: var(--radius);
+      object-fit: cover;
     }
   }
   @media screen and (min-width: 768px) {
@@ -57,6 +60,8 @@ const Wrapper = styled.section`
   }
   @media screen and (min-width: 1280px) {
     flex-direction: row-reverse;
+    align-items: center;
+    gap: 7rem;
     div {
       max-width: 50%;
       img {

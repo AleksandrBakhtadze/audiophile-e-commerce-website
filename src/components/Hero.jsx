@@ -36,16 +36,17 @@ const Hero = () => {
 
 const HeroSection = styled.section`
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   margin-bottom: 2.5rem;
+  min-height: 24rem;
   @media screen and (min-width: 768px) {
-    background-position: center !important;
-    background-size: cover;
     margin-bottom: 6rem;
+    min-height: 32rem;
   }
   @media screen and (min-width: 1280px) {
-    background-position: 0 100% !important;
     margin-bottom: 7.5rem;
+    min-height: 40rem;
   }
 `;
 const HeroContainer = styled.div`
