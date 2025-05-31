@@ -82,7 +82,7 @@ const Checkout = () => {
                 label='name'
                 name='Name'
                 type='text'
-                placeholder='Alexey Ward'
+                placeholder='Grisha Oniani'
                 register={register}
                 errors={errors}
               />
@@ -90,7 +90,7 @@ const Checkout = () => {
                 label='email'
                 name='Email Adress'
                 type='email'
-                placeholder='alexey@mail.com'
+                placeholder='OnianiGrishuka@mail.com'
                 register={register}
                 errors={errors}
               />
@@ -98,7 +98,7 @@ const Checkout = () => {
                 label='phone_number'
                 name='Phone Number'
                 type='tel'
-                placeholder='+1 202-555-0136'
+                placeholder='+995 521 53 21 33'
                 register={register}
                 errors={errors}
               />
@@ -111,7 +111,7 @@ const Checkout = () => {
                 label='address'
                 name='Your Adress'
                 type='text'
-                placeholder='1137 Williams Avenue'
+                placeholder='Aleksandre Kazbegi Avenue 16'
                 errors={errors}
                 register={register}
                 className='address-field'
@@ -128,7 +128,7 @@ const Checkout = () => {
                 label='city'
                 name='City'
                 type='text'
-                placeholder='New York'
+                placeholder='Tbilisi'
                 errors={errors}
                 register={register}
               />
@@ -136,7 +136,7 @@ const Checkout = () => {
                 label='country'
                 name='Country'
                 type='text'
-                placeholder='United States'
+                placeholder='Georgia'
                 errors={errors}
                 register={register}
               />
